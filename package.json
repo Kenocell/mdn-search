@@ -1,0 +1,19 @@
+{
+  "name": "mdn-search",
+  "version": "0.0.10",
+  "description": "MDN Search",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:kenocell/browser-extensions/MDN-Search.git"
+  },
+  "author": "Fotis Tsagkanas <tsfotis@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^2.1.0"
+  }
+}
