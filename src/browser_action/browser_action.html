@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style>
+		caption {
+			text-align: -webkit-left;
+		}
+
+		body {
+			margin: 4px;
+			padding: 0px;
+			min-width: 300px;
+		}
+
+		table {
+			cursor: pointer;
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+
+		td {
+			text-align: center;
+		}
+
+		td:hover {
+			box-shadow: inset 1px 1px 8px #888888;
+		}
+
+		td,
+		th {
+			border: 1px solid #dddddd;
+			padding: 8px;
+		}
+
+		tr {
+			text-align: -webkit-center;
+		}
+
+		tr:nth-child(even) {
+			background-color: #dddddd;
+		}
+
+		button {
+			width: 20%;
+			margin-left: 5%;
+		}
+
+		input {
+			width: 70%;
+		}
+	</style>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+	<form id="form">
+		<input type="text" id="query" autofocus placeholder="Search MDN" tabindex="1">
+		<button id="search" type="submit">Search</button>
+	</form>
+</body>
+
+</html>
