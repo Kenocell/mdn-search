@@ -1,15 +1,14 @@
-# mdn-search.zip
 image: node:latest
 
 before_script:
 - npm install
 
 cache:
-  paths:
-  - node_modules/
+    paths:
+    - node_modules/
 
 build:
-  stage: build
+    stage: build
     script:
     - npm run build
     artifacts:
